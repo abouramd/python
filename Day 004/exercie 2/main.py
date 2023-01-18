@@ -2,3 +2,5 @@ name = ["Delaware","Pennsylvania","New Jersey","Georgia","Connecticut","Massachu
 
 for i in range(0, len(name)): 
     print(name[-i - 1])
+
+    

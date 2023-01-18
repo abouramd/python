@@ -1,6 +1,6 @@
-## Heads or Tails
+# Heads or Tails
 
-# Instructions
+## Instructions
 
 You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails". 
 
@@ -12,7 +12,7 @@ e.g.
 1 means Heads
 0 means Tails 
 
-# Example Output
+## Example Output
 
 ```
 Heads
@@ -25,6 +25,6 @@ Tails
 ```
 
 
-# Solution
+## Solution
 
 [Solution](./main.py)

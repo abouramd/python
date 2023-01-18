@@ -1,6 +1,12 @@
-name = ["Delaware","Pennsylvania","New Jersey","Georgia","Connecticut","Massachusetts","Maryland","South Carolina","New Hampshire","Virginia","New York","North Carolina","Rhode Island","Vermont","Kentucky","Tennessee","Ohio","Louisiana","IndianaD","MississippiD","Illinois","AlabamaDe","Maine","Missouri","Arkansas","Michigan","Florida","TexasD","IowaD","Wisconsin","CaliforniaS","Minnesota","OregonF","Kansas","West Virginia","Nevada","Nebraska","District of ColombiaF","Colorado","North Dakota","South Dakota","Montana","WashingtonN","Idaho","Wyoming","Utah","OklahomaN","New Mexico","Arizona","Alaska","Hawaii"]
+import random
+# Split string method
+test_seed = int(input("Creat a seed number: "))
+random.seed(test_seed)
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+# 🚨 Don't change the code above 👆
 
-for i in range(0, len(name)): 
-    print(name[-i - 1])
+#Write your code below this line 👇
 
-    
+print(names[random.randint(0, len(names) - 1)] + " is going to buy the meal today!")
+

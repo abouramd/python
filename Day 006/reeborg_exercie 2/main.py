@@ -17,8 +17,3 @@
     
 # for i in range(0, 6):
 #     jump()
-
-f()=return(int(input()))
-x = f()
-y = f()
-print(x + y) 

@@ -57,5 +57,5 @@ It's not a prime number.
 
 # Solution
 
-[https://repl.it/@appbrewery/day-8-2-solution](https://repl.it/@appbrewery/day-8-2-solution)
+[solution](./main.py)
 

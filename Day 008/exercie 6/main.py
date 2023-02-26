@@ -45,4 +45,6 @@ while restart is True:
     restart = False
     if answer == "yes":
         restart = True
+    else:
+        print("have a nice day :D")
         
